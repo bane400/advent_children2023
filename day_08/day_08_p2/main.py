@@ -42,7 +42,7 @@ mapping = []
 
 # read in the input file and use it to update time and distance lists
 def parse_file():
-    # let python know lr_dir is globla
+    # let python know lr_dir is global
     global lr_dir
 
     # open file to parse
