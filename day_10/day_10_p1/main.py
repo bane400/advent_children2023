@@ -133,8 +133,9 @@ def parse_file():
         # read in next line
         current = in_file.readline()[0:-1]
 
-    # close file once the program completes
-    in_file.close()
+
+
+
 
 
 # check if there is a connecting pipe above the given coordinate

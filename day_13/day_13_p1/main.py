@@ -88,6 +88,9 @@ def parse_file():
         patterns.append(next_pattern)
         current = in_file.readline()
 
+    # close file once the program completes
+    in_file.close()
+
 
 # function to find the location of a horizontal reflection, if there is one
 # returns the line number of the reflection if there is one, zero otherwise
